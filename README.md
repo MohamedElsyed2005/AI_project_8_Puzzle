@@ -23,11 +23,11 @@ Heuristics:
 For the A* (the informed search) we are going to use Manhattan heuristic and Euclidean 
 heuristic and compare between number of nodes expanded and output paths, and to report 
 which heuristic is more admissible. 
-1. Manhattan Distance 
+1. Manhattan Distance
 It is the sum of absolute values of differences in the goal’s x and y coordinates and 
 the current cell’s x and y coordinates respectively, 
 h = abs(current cell:x - goal:x) + abs(current cell:y - goal:y) 
-2. Euclidean Distance 
+3. Euclidean Distance 
 It is the distance between the current cell and the goal cell using the distance formula 
 h = sqrt((current cell:x - goal:x)2 + (current cell.y - goal:y)2)
  
